@@ -1,0 +1,23 @@
+@import '~@progress/kendo-theme-default/dist/all.css';
+
+
+/* .App{
+    background-image: url("/public/bg.png");
+} */
+
+.logo{
+    width: 40%;
+    margin-left: 3.8rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+.drawer-container{
+    background:#1066CB;
+    width: 200px;
+    
+}
+.k-selected {
+      color: none;
+      background:#fff;
+    }

@@ -1,0 +1,52 @@
+@import '~@progress/kendo-theme-default/dist/all.css';
+
+
+.flex-xl-column{
+    background-color: #1066CB;
+    
+}
+.navbar-expand-xl .navbar-collapse {
+    
+    width: 140px;
+    height: 100vh;
+}
+.nav-link {
+    color:white !important;
+    
+}
+.custom-link {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #333; /* Default text color */
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .custom-link:hover{
+    background-color: #f0f0f0;
+    color:#1066CB !important;
+  }
+  .custom-link.active {
+    background-color: white;
+    color:#1066CB !important;
+   
+  }
+  .flex-column{
+    margin-top: -350px !important;
+  }
+  .navbar-brand{
+    margin-top: 20px;
+    
+  }
+.conatiner{
+   height: 100px;
+ }
+ .butn-p{
+    text-align: right;
+    color: #1066CB !important;
+ }
+  
+  

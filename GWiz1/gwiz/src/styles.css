@@ -1,0 +1,55 @@
+@import '~@progress/kendo-theme-default/dist/all.css';
+
+
+my-app { padding: 0 !important; }
+:not( .k-drawer-expanded .k-drawer-mini ){
+    
+    
+}
+
+.k-drawer-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+}
+li:not(.k-selected .k-drawer-item:hover) {
+    color: #FFFFFF;
+    background-color: #1066CB;
+  }
+
+  
+
+
+.k-drawer-item {
+    user-select: none;
+    background:#1066CB;
+    width: 200px;
+
+    
+}
+
+
+.k-icon {
+    font-size: 20px;
+}
+
+
+.page ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.page li {
+    font-size: 1.2em;
+
+    border-radius: 0;
+    border-width: 0 0 1px;
+    border-color: rgba(33, 37, 41, 0.125);
+    border-style: solid;
+    line-height: 1.5em;
+    padding: 1.09em .84em 1.23em .84em;
+}
+.page li:last-child {
+    border: 0;
+}
